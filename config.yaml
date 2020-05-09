@@ -1,0 +1,38 @@
+baseURL: "http://www.z-svc.cn/"
+languageCode: "zh-CN"
+title: "天天蜕皮的大蛇 Re"
+markup:
+    highlight:
+        lineNos: true
+taxonomies:
+    category: category
+    tag: tag
+permalinks:
+    post: "/:year/:month/:slug/"
+related:
+    threshold: 80
+    includeNewer: true
+    toLower: true
+    indices:
+        - name: tag
+          weight: 60
+        - name: category
+          weight: 30
+        - name: date
+          weight: 10
+
+theme: "maupassant"
+preserveTaxonomyNames: true
+disablePathToLower: true
+author:
+    name: "Snakevil"
+params:
+    subtitle: "当下这个时代里最昂贵的，无过于代表了自我记忆的信息数据。"
+    cc:
+        name: "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
+        link: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    utteranc:
+        enable: true
+        repo: "snakevil/notes"
+        issueTerm: "pathname"
+        theme: "github-light"
