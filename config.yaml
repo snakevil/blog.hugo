@@ -1,9 +1,10 @@
-baseURL: "http://www.z-svc.cn/"
+baseURL: "https://szen.in/"
 languageCode: "zh-CN"
 title: "天天蜕皮的大蛇 Re"
 markup:
     highlight:
         lineNos: true
+        style: dracula
 taxonomies:
     category: category
     tag: tag
@@ -33,6 +34,6 @@ params:
         link: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
     utteranc:
         enable: true
-        repo: "snakevil/notes"
+        repo: "snakevil/blog.hugo"
         issueTerm: "pathname"
         theme: "github-light"
